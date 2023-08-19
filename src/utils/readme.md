@@ -1,0 +1,1 @@
+Arquivos estáticos como mensagens, dados, regras de validação, etc

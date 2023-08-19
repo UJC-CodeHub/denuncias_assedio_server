@@ -1,0 +1,17 @@
+# Arquivos gerados pelo TypeScript
+*.js
+*.js.map
+
+# Dependências instaladas pelo npm
+/node_modules
+
+# Arquivo de compilação do TypeScript
+/dist
+
+# Arquivos de log
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#Variáveis de ambiente
+/.env
