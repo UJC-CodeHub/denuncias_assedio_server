@@ -14,7 +14,7 @@ Este é o repositório do back-end para o sistema de denúncias de assédio sexu
 
 ## Pré-requisitos
 
-- Node.js: Certifique-se de que você tenha o Node.js instalado em sua máquina.
+- Bun: Certifique-se de que você tenha o Bun instalado em sua máquina (v1.0.8 no minimo).
 - Banco de Dados: Configure o banco de dados e defina as variáveis de ambiente apropriadas.
 
 ## Como Iniciar
