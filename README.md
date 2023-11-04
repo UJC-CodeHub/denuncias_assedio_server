@@ -21,10 +21,9 @@ Este é o repositório do back-end para o sistema de denúncias de assédio sexu
 
 1. Clone este repositório: `git clone [URL do Repositório]`
 2. Navegue até a pasta do projeto: `cd denuncias_assedio_server`
-3. Instale as dependências: `npm install`
+3. Instale as dependências: `bun install`
 4. Configure as variáveis de ambiente necessárias, incluindo credenciais de banco de dados e chaves de API.
-5. Inicie o servidor: `pnpm run dev`
-
+5. Inicie o servidor: `bun run dev`
 
 ## Contribuições
 
