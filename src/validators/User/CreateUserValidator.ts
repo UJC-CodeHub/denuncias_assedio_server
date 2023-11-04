@@ -9,8 +9,8 @@ export const CreateUserValidator = {
   password: {
     optional: false,
     errorMessage: "Please insert a password",
-    isLength: {
-      errorMessage: "The inserted password must contain 4 numbers",
+    isString: {
+      errorMessage: "The inserted password must contain 4 caracters",
       options: {
         min: 4,
       },

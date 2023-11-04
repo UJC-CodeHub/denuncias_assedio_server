@@ -19,4 +19,10 @@ export class UserService {
       data: userData,
     });
   }
+
+  static async existsByCode(code: string) {
+    return await prisma.user.findUnique({
+      where: { code: code },
+    });
+  }
 }
