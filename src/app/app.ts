@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { router as UserRoutes } from "../routes/UserRoutes";
+import { router as AuthRoutes } from "../routes/AuthRoutes";
 
 const app = express();
 app.use(express.json());
@@ -11,6 +11,6 @@ app.get("/api/health", (req: Request, res: Response) => {
     message: "API is health!",
   });
 });
-app.use("/api/users", UserRoutes);
+app.use("/api/auth", AuthRoutes);
 
 export { app };
