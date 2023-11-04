@@ -15,3 +15,6 @@ yarn-error.log*
 
 #Variáveis de ambiente
 /.env
+.env
+/env
+env
