@@ -14,17 +14,16 @@ Este é o repositório do back-end para o sistema de denúncias de assédio sexu
 
 ## Pré-requisitos
 
-- Node.js: Certifique-se de que você tenha o Node.js instalado em sua máquina.
+- Bun: Certifique-se de que você tenha o Bun instalado em sua máquina (v1.0.8 no minimo).
 - Banco de Dados: Configure o banco de dados e defina as variáveis de ambiente apropriadas.
 
 ## Como Iniciar
 
 1. Clone este repositório: `git clone [URL do Repositório]`
 2. Navegue até a pasta do projeto: `cd denuncias_assedio_server`
-3. Instale as dependências: `npm install`
+3. Instale as dependências: `bun install`
 4. Configure as variáveis de ambiente necessárias, incluindo credenciais de banco de dados e chaves de API.
-5. Inicie o servidor: `pnpm run dev`
-
+5. Inicie o servidor: `bun run dev`
 
 ## Contribuições
 
